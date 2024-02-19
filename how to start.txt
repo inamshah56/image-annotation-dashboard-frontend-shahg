@@ -1,0 +1,4 @@
+download Node Js =>   https://nodejs.org/en/download
+if there is no node_modules folder in main directory of project then run this command in main directory `npm install --force`
+it will take a while. 
+after downloaded successfully, just run the `start` file

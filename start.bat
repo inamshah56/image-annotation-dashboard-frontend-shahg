@@ -1,0 +1,6 @@
+@echo off
+echo Starting Next.js app on port 3000...
+start cmd /k "npm run dev" &
+start chrome http://localhost:3000/
+echo Next.js app started. Press any key to exit...
+pause

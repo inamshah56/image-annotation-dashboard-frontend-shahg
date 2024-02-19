@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-primary {
+  background-color: #14532d;
+  color: white;
+}
+
+.bg-secondary {
+  background-color: #15803d;
+  color: white;
+}
+
+.btn {
+  background-color: #ca8a04;
+  color: white;
+}
+
+.btn:hover {
+  background-color: #f59e0b;
+}
+
+.btn-disabled {
+  background-color: #cbd5e1;
+  color: #94a3b8;
+  cursor: not-allowed;
+}
